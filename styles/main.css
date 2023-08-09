@@ -2,7 +2,7 @@
 
 :root {
     /* font-size */
-    --fs_title: 21px;
+    --fs_title: 48px;
     --fs_subtitle1: 24px;
     --fs_subtitle2: 21px;
     --fs_subtitle3: 18px;
@@ -36,6 +36,30 @@ body {
     padding: 0 var(--container-space);
     margin: 0 auto;
 }
+
+
+
+
+/* width */
+
+.mw600 {
+    max-width: 600px;
+}
+
+.mw300 {
+    max-width: 300px;
+}
+
+.mw170 {
+    max-width: 170px;
+}
+
+
+.margin0a {
+    margin: 0 auto;
+}
+
+/* width--end */
 
 
 
@@ -88,10 +112,19 @@ body {
 
 
 /* backgrounds */
+
+.bg-s {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .bg-white{
     background-color: var(--clr_white);
 }
+
 /* backgrounds--end */
+
 
 
 
@@ -158,10 +191,13 @@ body {
 /* button */
 
 .button {
-    padding: 12px 26px;
+    padding: 12px 60px;
     border-radius: 40px;
 }
     /* border */
+.btn_border--white {
+    border: 2px solid var(--clr_white);
+} 
 .btn_border--pink {
     border: 2px solid var(--clr_pink);
 } 
@@ -170,6 +206,9 @@ body {
 .btn_bg--white {
     background-color: var(--clr_white);
 }
+.btn_bg--pink {
+    background-color: var(--clr_pink);
+}
 
 /* button--end */
 
@@ -177,6 +216,7 @@ body {
 
 
 /* main-section */
+
 .page-full {
     min-height: 100vh;
 }
@@ -194,9 +234,6 @@ body {
 }
 .main {
     background-image: url(/assets/images/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 80%;
 }
 
 /* main-section--end */
