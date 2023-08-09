@@ -40,26 +40,44 @@ body {
 
 
 
-/* width */
+/* size */
 
+    /* width */
 .mw600 {
     max-width: 600px;
 }
-
 .mw300 {
     max-width: 300px;
 }
-
+.mw195{
+    max-width: 195px;
+}
 .mw170 {
     max-width: 170px;
 }
-
+.mw130 {
+    max-width: 130px;
+}
+.mw125 {
+    max-width: 125px;
+}
 
 .margin0a {
     margin: 0 auto;
 }
 
 /* width--end */
+
+
+
+
+/* padding-and-margin */
+
+.mar-b--38 {
+    margin-bottom: 38px;
+}
+
+/* padding-and-margin--end */
 
 
 
@@ -93,6 +111,7 @@ body {
     align-items: center;
 }
 
+    /* gap */
 .gap50 {
     gap: 50px;
 }
@@ -101,6 +120,9 @@ body {
 }
 .gap30 {
     gap: 30px;
+}
+.gap25 {
+    gap: 25px;
 }
 .gap20 {
     gap: 20px;
@@ -121,6 +143,10 @@ body {
 
 .bg-white{
     background-color: var(--clr_white);
+}
+
+.bg-pink {
+    background-color: var(--clr_pink);
 }
 
 /* backgrounds--end */
@@ -215,6 +241,17 @@ body {
 
 
 
+/* input */
+
+.email {
+    
+}
+
+/* input--end */
+
+
+
+
 /* main-section */
 
 .page-full {
@@ -238,6 +275,24 @@ body {
 
 /* main-section--end */
 
+
+
+
+/* second-section */
+
+.second-section {
+    padding: 80px 0;
+}
+
+    /* cards */
+.card {
+    padding: 25px 30px;
+}
+.second-card {
+    padding: 35px 40px;
+}
+
+/* second-section--end */
 
 
 
