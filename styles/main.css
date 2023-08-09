@@ -328,7 +328,7 @@ body {
     text-align: center;
 }
 .imgt {
-    margin: 35px 0;
+    margin: 35px 10px;
 }
 
 .border-bottom:not(:last-child) {
