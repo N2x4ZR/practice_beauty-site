@@ -298,7 +298,7 @@ body {
     padding: 30px 0;
 }
 .main {
-    background-image: url(/assets/images/background.png);
+    background-image: url(../assets/images/background.png);
 }
 
 /* main-section--end */
