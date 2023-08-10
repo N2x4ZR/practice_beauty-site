@@ -301,6 +301,7 @@ body {
     padding: 30px 0;
 }
 .main {
+    padding: 15px 0;
     background-image: url(../assets/images/background.png);
 }
 
@@ -331,7 +332,7 @@ body {
     text-align: center;
 }
 .imgt {
-    margin: 35px 10px;
+    padding: 35px 10px;
     width: 100%;
     max-width: 150px;
     
